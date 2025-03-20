@@ -4,7 +4,7 @@ import { motion, useMotionValue, useTransform } from "framer-motion";
 const SwipeCards = () => {
   const [cards, setCards] = useState([]); 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/data")
+    fetch("https://kapdaswag.onrender.com/api/data")
       .then((response) => response.json())
       .then((data) => {
         setCards(data); // Update state with API data
