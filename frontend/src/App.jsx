@@ -1,6 +1,6 @@
 import Home from "./pages/Home";
 import Login from "./pages/Login";
-import Signup from "./pages/signup";
+import Signup from "./pages/Signup";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const App=()=>{
