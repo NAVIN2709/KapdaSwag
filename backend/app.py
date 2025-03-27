@@ -12,7 +12,8 @@ cards_data = {
             'name': "White T-Shirt",
             "price": "10",
             "brand": "The Souled Store",
-            "link":"https://www.thesouledstore.com/"
+            "link":"https://www.thesouledstore.com/",
+            "tagline":"imagine yourself in a white t-shirt",
         },
         {
             "id": 2,
@@ -20,7 +21,8 @@ cards_data = {
             "name": "Black T-Shirt",
             "price": "12",
             "brand": "Zudio",
-            "link":"https://www.zudio.com/"
+            "link":"https://www.zudio.com/",
+            "tagline":"imagine yourself in a black t-shirt",
         },
         {
             "id": 3,
@@ -28,7 +30,8 @@ cards_data = {
             "name": "White Top",
             "price": "20",
             "brand": "Peter England",
-            "link":"https://peterengland.abfrl.in/"
+            "link":"https://peterengland.abfrl.in/",
+            "tagline":"imagine yourself in a white top",
         },
         {
             "id": 4,
@@ -36,7 +39,8 @@ cards_data = {
             "name": "Denim Shorts",
             "price": "27",
             'brand': "Indian Terrain",
-            "link":"https://www.indianterrain.com/"
+            "link":"https://www.indianterrain.com/",
+            "tagline":"imagine yourself in denim shorts",
         },
         {
             "id": 5,
@@ -44,7 +48,8 @@ cards_data = {
             "name": "Max Jeans",
             "price": "70",
             "brand": "Max",
-            "link":"https://www.maxfashion.in/in/en/"
+            "link":"https://www.maxfashion.in/in/en/",
+            "tagline":"imagine yourself in max jeans"
         }
     ]
 }

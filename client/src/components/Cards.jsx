@@ -37,6 +37,7 @@ const Card = ({
   price,
   brand,
   link,
+  tagline
 }) => {
   const [choice, setChoice] = useState(null); // null | "like" | "nope"
   const x = useMotionValue(0);
@@ -71,6 +72,11 @@ const Card = ({
       onDragEnd={handleDragEnd}
       exit={{ x: x.get() > 0 ? 200 : -200 }}
     >
+      {/* Card Header */}
+      <div className="absolute top-0 w-full flex justify-between items-center p-2">
+          <p className="text-white text-lg font-bold ml-4">{name}</p>
+      </div>
+      {/* Card Image */}
       <img
         src={source}
         alt="Swipe Card"
@@ -102,11 +108,9 @@ const Card = ({
         </p>
       </div>
       <div className="absolute bottom-0 w-full flex justify-around">
-        <img src="cross.svg" />
-        <button className="shop text-2xl font-bold bg-white rounded-full px-2 py-4 h-max w-25">
+        <button className="shop text-2xl font-bold bg-white rounded-full px-2 py-4 h-max w-25 mb-2">
           <a href={link}>Shop</a>
         </button>
-        <img src="like-button.svg" />
       </div>
     </motion.div>
   );
