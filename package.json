@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "dev": "vite"
   },
   "type": "module",
   "keywords": [],
@@ -22,6 +23,7 @@
     "tailwindcss": "^4.0.7"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "vite": "^6.2.3"
   }
 }
